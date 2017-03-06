@@ -1,24 +1,31 @@
-html {
+html
+{
   height: 100%;
 }
-body {
+body
+{
   min-height: 100%;
   margin: 0;
   padding: 0;
 }
-body {
+body
+{
   position: relative;
 }
-footer {
-  position: absolute; bottom: 0; left: 0; right: 0
+
+header
+{
+  padding: 10px;
+  margin-left: 5px;
 }
-li {
+li
+{
   float: right;
   text-align: right;
   margin-left: 1em;
 }
-
-ul  {
+ul
+{
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -38,19 +45,54 @@ form
 .search1
 {
   display: inline-block;
-  border-style: inset;
-  margin-left: 32em;
+  border-style:outset;
+  margin-left: 32.5em;
+  background-color:##F5F5F5;
 }
 .search2
 {
   display: inline-block;
-  border-style: inset;
+  border-style: outset;
   margin: auto;
+  background-color:##F5F5F5;
+}
+input{
+  width: 420px;
+  height: 30px;
 }
 
-
-
-footer p
+footer
 {
-  display: inline-block;
+  position: absolute; bottom: 0; left: 0; right: 0;
+  border-style:solid;
+  border-color: #FDF5E6;
+  background-color: #FFF5EE;
+  height: 30px;
+}
+
+.footerPub
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  float: left;
+  text-align: left;
+  margin-left: 1em;
+}
+
+.footerConfig
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  float: right;
+  text-align: right;
+  margin-right: 1em;
+}
+a
+{
+    text-decoration: none;
+    color: grey;
 }
