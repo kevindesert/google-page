@@ -1,0 +1,56 @@
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  position: relative;
+}
+footer {
+  position: absolute; bottom: 0; left: 0; right: 0
+}
+li {
+  float: right;
+  text-align: right;
+  margin-left: 1em;
+}
+
+ul  {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.logogoogle
+{
+  display: block;
+  margin: auto;
+}
+form
+{
+  text-align: center;
+
+}
+.search1
+{
+  display: inline-block;
+  border-style: inset;
+  margin-left: 32em;
+}
+.search2
+{
+  display: inline-block;
+  border-style: inset;
+  margin: auto;
+}
+
+
+
+footer p
+{
+  display: inline-block;
+}
